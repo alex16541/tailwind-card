@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--<script src="https://cdn.tailwindcss.com"></script>-->
+        <link href="./output.css" rel="stylesheet" />
+    </head>
+    <body>
+        <main class="flex h-screen items-center justify-center bg-black">
+            <div
+                class="relative h-[380px] w-full min-w-[315px] max-w-[440px] bg-white"
+            >
+                <button
+                    class="absolute right-3 top-3 flex h-7 items-center rounded-md border border-gray-200 bg-white p-[6px] text-xs font-medium"
+                >
+                    button
+                </button>
+                <div class="h-[222px] w-full bg-gray-300"></div>
+                <div
+                    class="easy-in-out group absolute bottom-0 left-0 right-0 flex h-[158px] flex-col gap-3 overflow-hidden bg-white px-3 py-4 transition-[height] duration-200 hover:h-[286px]"
+                >
+                    <div class="row flex items-center justify-between gap-1">
+                        <div class="flex flex-col">
+                            <label class="text-sm text-gray-500">
+                                Subheader
+                            </label>
+                            <h4 class="text-xl font-medium">Header</h4>
+                        </div>
+
+                        <div class="text-end text-lg font-medium">Text</div>
+                    </div>
+                    <div class="content relative">
+                        <div
+                            class="button absolute left-0 right-0 top-0 flex h-[82px] flex-col gap-1 bg-white transition-[opacity] duration-200 group-hover:pointer-events-none group-hover:opacity-0"
+                        >
+                            <button
+                                class="flex h-[46px] w-full items-center justify-center rounded-md bg-gray-500 px-5 py-4 text-base font-semibold text-white"
+                            >
+                                Button
+                            </button>
+                            <label class="text-center text-xs text-gray-500">
+                                Sub text
+                            </label>
+                        </div>
+                        <ul
+                            class="flex flex-col gap-2 border-t border-gray-200 pt-3"
+                        >
+                            <li
+                                class="flex items-center justify-between gap-1 text-sm"
+                            >
+                                <span class="text-gray-500">Text</span>
+                                <a class="cursor-pointer text-end" href="#">
+                                    Link
+                                </a>
+                            </li>
+                            <li
+                                class="flex items-center justify-between gap-1 text-sm"
+                            >
+                                <span class="text-gray-500">Text</span>
+                                <a class="cursor-pointer text-end" href="#">
+                                    Link
+                                </a>
+                            </li>
+                            <li
+                                class="flex items-center justify-between gap-1 text-sm"
+                            >
+                                <span class="text-gray-500">Text</span>
+                                <a class="cursor-pointer text-end" href="#">
+                                    Link
+                                </a>
+                            </li>
+                            <li
+                                class="flex items-center justify-between gap-1 text-sm"
+                            >
+                                <span class="text-gray-500">Text</span>
+                                <a class="cursor-pointer text-end" href="#">
+                                    Link
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div
+                        class="pointer-events-none flex flex-col gap-1 group-hover:pointer-events-auto"
+                    >
+                        <button
+                            class="flex h-[46px] w-full items-center justify-center rounded-md bg-gray-500 px-5 py-4 text-base font-semibold text-white"
+                        >
+                            Button
+                        </button>
+                        <label class="text-center text-xs text-gray-500">
+                            Sub text
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
